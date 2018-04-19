@@ -1,0 +1,64 @@
+--- 
+1. Boston dataset (cells with 2m resolution)
+--- 
+x: xcoordiante
+y: ycoordinate
+values 1971: land use class in 1971 (1 for non-urban)
+values 1999: land use class in 1999 (1 for non-urban and 2 for urban)
+set of input drivers
+1. xden71
+2. xdetr71
+3. xdeu71
+4. xdewa71
+5. xdu71
+6. xdwa71
+
+--- 
+2. Muskegon-County dataset (cells with 100m resolution)
+--- 
+column1: id of cell
+column2: xcoordinate
+column3: ycoordinate
+column4: LU in 1978 (0 for non-urban and 1 for urban; LU in time 1978 could be added as input in the model)
+column5: LU in 1898 (0 for non-urban and 1 for urban)
+
+column6: x1 (X={x1, ..., x7} are the set of drivers in 1978)
+column7: x2
+column8: x3
+column9: x4
+column10: x5
+column11: x6
+column12: x7
+
+--- 
+3. South-Eastern-Wisconsin dataset (cells with 30m resolution)
+--- 
+column1: xcoordinate
+column2: ycoordinate
+column3: LU in 1990
+column4: LU in 2000
+column5: LU in 2006
+
+column6: x1 (X=(x1, ..., x17) are the set of drivers in 1990)
+column7: x2
+column8: x3
+column9: x4
+column10: x5
+column11: x6
+column12: x7
+column13: x8
+column14: x9
+column15: x10
+column16: x11
+column17: x12
+column18: x13
+column19: x14
+column20: x15
+column21: x16
+column22: x17
+
+column23: Land use_t1 in 7 classs
+column24: LU in 1990 (0 for non-change and 1 for change) 
+column25: LU in 2000 (0 for non-change and 1 for change)
+column26: cluster ID 
+-------------------------------
